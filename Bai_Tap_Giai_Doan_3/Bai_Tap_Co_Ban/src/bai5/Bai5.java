@@ -12,45 +12,20 @@ public class Bai5 {
         System.out.println("Nhập tháng (1 - 12): ");
         int thang =  sc.nextInt();
 
-        switch(thang){
-            case 1:
-                System.out.println("Tháng một");
-                break;
-            case 2:
-                System.out.println("Tháng hai");
-                break;
-            case 3:
-                System.out.println("Tháng ba");
-                break;
-            case 4:
-                System.out.println("Tháng bốn");
-                break;
-            case 5:
-                System.out.println("Tháng năm");
-                break;
-            case 6:
-                System.out.println("Tháng sáu");
-                break;
-            case 7:
-                System.out.println("Tháng bảy");
-                break;
-            case 8:
-                System.out.println("Tháng tám");
-                break;
-            case 9:
-                System.out.println("Tháng chín");
-                break;
-            case 10:
-                System.out.println("Tháng mười");
-                break;
-            case 11:
-                System.out.println("Tháng mười một");
-                break;
-            case 12:
-                System.out.println("Tháng mười hai");
-                break;
-            default:
-                System.out.println("Tháng không tồn tại.");
+        switch (thang) {
+            case 1 -> System.out.println("Tháng một");
+            case 2 -> System.out.println("Tháng hai");
+            case 3 -> System.out.println("Tháng ba");
+            case 4 -> System.out.println("Tháng bốn");
+            case 5 -> System.out.println("Tháng năm");
+            case 6 -> System.out.println("Tháng sáu");
+            case 7 -> System.out.println("Tháng bảy");
+            case 8 -> System.out.println("Tháng tám");
+            case 9 -> System.out.println("Tháng chín");
+            case 10 -> System.out.println("Tháng mười");
+            case 11 -> System.out.println("Tháng mười một");
+            case 12 -> System.out.println("Tháng mười hai");
+            default -> System.out.println("Lỗi: Tháng không tồn tại. Vui lòng nhập số từ 1 đến 12.");
         }
         sc.close();
     }
