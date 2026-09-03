@@ -6,13 +6,14 @@ import java.util.List;
 /*
 2. Viết chương trình thêm, sau đó xóa một sản phẩm khỏi ArrayList ở bài trên, in ra danh sách trước và sau khi xóa.
 * @author Nguyễn Tấn Chinh
-* @version 1
+* @version 1.1
 * @since 2026 - 09 - 03
  */
 public class Bai2 {
     // Hàm in danh sách
     public static void printProducts(List<String> products) {
-        if(products.size() == 0 || products.isEmpty()){
+        // Nên kiểm tra null trước
+        if(products == null || products.isEmpty()){
             System.out.println("Danh sách rỗng!");
             return;
         }
