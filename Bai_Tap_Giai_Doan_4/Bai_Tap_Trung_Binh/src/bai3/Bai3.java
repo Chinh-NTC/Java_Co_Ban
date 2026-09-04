@@ -23,7 +23,7 @@ public class Bai3 {
         if (arr == null || arr.length == 0){
             return 0;
         }
-        
+
         double tong = 0;
         for (double x : arr){
             tong += x;
